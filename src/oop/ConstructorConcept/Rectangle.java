@@ -1,4 +1,4 @@
-package oop.Encapsuslation;
+package oop.ConstructorConcept;
 
 public class Rectangle {
 

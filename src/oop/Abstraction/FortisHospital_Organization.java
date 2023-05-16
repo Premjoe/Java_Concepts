@@ -1,6 +1,8 @@
 package oop.Abstraction;
 
-public class FortisHospital_Organization implements USMedical,UKMedical,IndiaMedical {
+public class FortisHospital_Organization extends Medical implements USMedical,UKMedical,IndiaMedical {
+	
+	// Interface can not have any parent class 
     
 	
 	// US Medical
@@ -23,6 +25,19 @@ public class FortisHospital_Organization implements USMedical,UKMedical,IndiaMed
 		
 		System.out.println("FortisHospital --- entServices ");
 		
+	}
+	
+
+	@Override
+	public void test(int a) {
+		
+		
+	}
+
+	@Override
+	public String get(int a, int b) {
+		
+		return null;
 	}
 	
     // UK Medical
@@ -75,5 +90,21 @@ public class FortisHospital_Organization implements USMedical,UKMedical,IndiaMed
 	public void emergencyServics() {
 		
 	}
+	
+	// WHO 
+
+	@Override
+	public void covidVaccination() {
+		System.out.println("FH - WHO : covidVaccination");
+		
+	}
+
+	// UN
+	@Override
+	public void medicalNews() {
+		
+		System.out.println("FH - UN : medicalNews");
+	}
+
 
 }

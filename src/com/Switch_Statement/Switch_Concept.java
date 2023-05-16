@@ -31,7 +31,7 @@ public class Switch_Concept {
 		}
 
 		//
-		int marks = 95;
+		int marks = 90;
 		switch (marks) {
 		case 10:
 			System.out.println("grade D");

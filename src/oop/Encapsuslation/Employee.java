@@ -3,7 +3,7 @@ package oop.Encapsuslation;
 public class Employee {
 
 	// Private variables
-	// use - Due to some data security, confiditional and avoid the manipulating.
+	// use - Due to some data security, confidential and avoid the manipulating.
 	private String name;
 	private int age;
 	private double salary;

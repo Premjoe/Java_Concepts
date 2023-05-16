@@ -8,9 +8,14 @@ public class Fortis_Runner_Class {
 		obj.physioServices();
 		obj.cardioServices();
 		obj.entServices();
+		System.out.println("Inheritated the parents interface Variable - class Interface  " + USMedical.min_fee);
+		System.out.println("Variable can access with child class name also Like this we can access only variable not method" + FortisHospital_Organization.min_fee);
+		
+		USMedical.USMedPharmacy();
+		obj.billing();
+		 
 		
 		// UK Medical
-		
 		obj.neuroServices();
 		obj.orthoServices();
 		
@@ -20,7 +25,6 @@ public class Fortis_Runner_Class {
 		obj.gynecologistServices();
 		
 		// Own Method
-		
 		obj.medicalTraining();
 		
 		
