@@ -6,14 +6,14 @@ public class Employee {
 	int age;
 	String city;
 
-	// const:
+	// Constructor:
 	// 1. name should same as class name
 	// 2. can not return anything/no void
-	// 3. can pass parameters to the const...const overloading? yes its possible
-	// 4. how to call a const...we need to create the object of the class and
-	// respective const.. will be called
+	// 3. can pass parameters to the Constructor...Constructor overloading? yes its possible
+	// 4. how to call a Constructor...we need to create the object of the class and
+	// respective Constructor.. will be called
 
-	public Employee() {// 0 param -- default const...
+	public Employee() {// 0 param -- default Constructor...
 		System.out.println("defalt const...");
 	}
 
